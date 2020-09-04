@@ -1,40 +1,40 @@
-// .btn {
-//   //background-color: $color-green;
-//   color: $color-white;
-//   padding: 1px;
-// }
 .btn-remove {
-  font-size: 24px;
-  color: $color-red;
-  border: none;
   background-color: $color-white;
+  border: none;
+  color: $color-red;
+  font-size: 18px;
+}
+.btn-remove:focus {
+  outline: none;
 }
 .fa-plus-circle {
   margin-right: 3px;
 }
-.btn-cerrar-agregarVenta {
-  margin: 2em, 2em;
-  border: none;
-}
 .btn-success {
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 10px;
-  font-size: 24px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px 10px;
 }
+.btn-success:focus {
+  outline: none;
+}
+
 .btn-secondary {
-  font-size: 24px;
+  font-size: 18px;
 }
 .btn-primary {
-  font-size: 24px;
+  font-size: 18px;
   padding-left: 10px;
   padding-right: 10px;
 }
 .btn-light {
-  margin-right: 10px;
-  font-size: 24px;
   background-color: hsl(0, 0%, 93%);
+  font-size: 18px;
+  margin-right: 10px;
 }
 .btn-danger {
-  font-size: 24px;
+  font-size: 18px;
+}
+#btn-cerrar {
+  font-size: 20px;
 }

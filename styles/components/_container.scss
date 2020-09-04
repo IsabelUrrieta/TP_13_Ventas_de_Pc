@@ -1,30 +1,31 @@
 .container {
   background-color: $color-white;
+  border-radius: 5px;
   margin-top: 50px;
-  width: 2000px;
-  border-radius: 10px;
+  width: 85%;
 }
 .header__table {
+  background-color: $color-blue;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  justify-content: space-between;
   padding: 15px;
   width: 100%;
-  display: flex;
-  background-color: $color-blue;
-  justify-content: space-between;
 }
 .header__title {
   color: $color-white;
+  font-size: 26px;
+  margin-bottom: 0;
 }
 
 .text {
-  /*  border: 2px dotted rgb(128, 98, 0); */
   color: $color-letras;
-  margin-bottom: 0;
   font-size: 16px;
-  padding: 1rem;
+  margin-bottom: 0;
+  padding: 0.5rem 1rem;
 }
 
 .container-footer {
-  /* border: 2px dotted purple; */
   margin-bottom: 100px;
   width: 100%;
 }

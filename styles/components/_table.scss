@@ -1,9 +1,17 @@
+/* #table2 {
+  border: 2px solid orangered;
+} */
+
 .table__text {
-  font-size: 24px;
+  font-size: 16px;
   color: $color-letras;
 }
+.table td {
+  vertical-align: middle;
+}
+
 .table__title {
-  font-size: 24px;
+  font-size: 16px;
   color: $color-letras;
   font-weight: bold;
 }

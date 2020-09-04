@@ -7,26 +7,27 @@
   z-index: 999;
 }
 .container-modal {
-  position: fixed;
-  padding-top: 150px;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
   background-color: rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  padding-top: 150px;
+  top: 0;
+  width: 100vw;
 }
 
 .modal-content {
   background-color: #fff;
   margin: 0 auto;
-  width: 40%;
-  height: 85%;
+  height: 80%;
   transition: all 0.3s ease-out;
   opacity: 0;
   text-align: left;
+  padding: 1rem;
+  width: 40%;
 }
 
 .container {
@@ -52,6 +53,7 @@
 }
 
 .modal-title {
+  font-size: 16px;
   display: flex;
   justify-content: space-between;
   margin: 15px;
@@ -65,9 +67,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  font-size: 24px;
+  font-size: 16px;
 }
 .botones-modal {
+  font-size: 16px;
   display: flex;
   justify-content: flex-end;
   margin-bottom: 30px;
@@ -79,21 +82,26 @@
   left: 450px;
 }
 .modal-content2 {
-  height: 60%;
+  height: 50%;
   width: 45%;
 }
 
 .form-control {
-  font-size: 24px;
+  font-size: 16px;
   color: $color-letras;
 }
 .title {
+  font-size: 24px;
   color: $color-letras;
 }
 .modal-subtitle {
   color: $color-letras;
+  margin: 0.5rem;
 }
 .modal-text {
   color: hsl(31, 68%, 46%);
-  font-size: 22px;
+  font-size: 18px;
+}
+#sucursal-option {
+  margin: 0.5rem 0 2rem 0;
 }
